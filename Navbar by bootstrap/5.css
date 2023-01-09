@@ -1,0 +1,22 @@
+.navbar {
+background-color: #AC7088 ;
+}
+.navbar .navbar-toggler {
+    border-color: #F5E8C7;
+}
+.navbar .navbar-toggler [aria-expanded="false"]
+{
+border-color:black;
+}
+.navbar .navbar-toggler :focus {
+    box-shadow: none;
+}
+.login {
+    border-radius: 15px;
+}
+.img {
+    background-color: #AC7088;
+}
+.landing {
+    background-color: blue;
+}

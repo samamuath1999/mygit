@@ -1,0 +1,80 @@
+body{ 
+    margin: 0 ; 
+    padding: 0; 
+    width: 100vw; 
+    height: 100vh;
+    
+    
+}
+.boxOut{   
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width:  100%; 
+    height: 100%;
+    background-color:darkgreen;}
+
+.boxin {
+    padding: 2% 5%;
+    width: 600px;
+    height: 350px;
+    border-radius: 10%; 
+    background-color: aliceblue;
+}
+.boxin h1 { 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.boxin h4 {
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(128, 128, 128);
+
+}
+
+.addInfo {}
+
+.addInfo input {
+    border: solid 2px gray;
+}
+
+.addInfo button { 
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    color:aliceblue;
+background-color:rgb(67, 38, 199);}
+ 
+.listBox {
+    width:auto;     
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listBox li:nth-child(2) {
+    width:auto; 
+    height: auto;
+    background-color:lightgrey;
+    text-decoration: line-through;
+    color:grey;
+}
+.end button {
+    
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+   
+}
+
+.clear {
+    background-color: rgb(67, 38, 199);
+}
+.empty {
+    background-color:rgb(228, 32, 32);
+}
+.save {
+    background-color:darkgreen;
+}
